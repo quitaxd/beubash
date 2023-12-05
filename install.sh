@@ -28,3 +28,5 @@ else
 	echo "~/.beubash/scripts/*.sh" >> ~/.bashrc
         echo "source ~/.beubash/aliases.conf" >> ~/.bashrc
 fi
+
+source ~/.bashrc
