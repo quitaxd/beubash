@@ -15,18 +15,37 @@ sleep 0.5
 
 clear
 
+printf "Hey. This script can overwrite these files; \n~/.bashrc \n~/.beubash (if exists) \nIf you are sure, wait please." | lolcat 
+sleep 2
+
+rm -rf ~/.beubash 2>/dev/null
+
 echo "Cloning the repo." | lolcat
 git clone https://github.com/Quitaxd/beubash ~/.beubash
 
-if ls ~/.bashrc >/dev/null; then
-	echo "" >> ~/.bashrc
-	echo "~/.beubash/scripts/*.sh" >> ~/.bashrc
-	echo "source ~/.beubash/aliases.conf" >> ~/.bashrc
-else
-	touch ~/.bashrc
-	echo "" >> ~/.bashrc
-	echo "~/.beubash/scripts/*.sh" >> ~/.bashrc
-        echo "source ~/.beubash/{aliases,ps1}.conf" >> ~/.bashrc
-fi
+clear
+
+echo "Removing ~/.bashrc" | lolcat
+rm ~/.bashrc
+sleep 1
+
+clear
+
+ln ~/.beubash/.bashrc ~/.bashrc
+
+#if cat ~/.bashrc | grep beubash >/dev/null; then
+	#rm ~/.bashrc
+	#echo "" >> ~/.bashrc
+	#echo "~/.beubash/scripts/*.sh" >> ~/.bashrc
+	#echo "source ~/.beubash/aliases.conf" >> ~/.bashrc
+#else
+	#touch ~/.bashrc
+	#echo "" >> ~/.bashrc
+	#echo "~/.beubash/scripts/*.sh" >> ~/.bashrc
+        #echo "source ~/.beubash/aliases.conf" >> ~/.bashrc
+	#echo "source ~/.beubash/ps1.conf" >> ~/.bashrc
+#fi
 
 source ~/.bashrc
+
+echo "Installation has been completed!" | lolcat
