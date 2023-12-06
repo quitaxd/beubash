@@ -31,7 +31,7 @@ sleep 1
 
 clear
 
-ln ~/.beubash/.bashrc ~/.bashrc
+ln -s ~/.beubash/.bashrc ~/.bashrc
 
 #if cat ~/.bashrc | grep beubash >/dev/null; then
 	#rm ~/.bashrc
