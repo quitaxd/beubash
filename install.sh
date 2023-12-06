@@ -26,7 +26,7 @@ else
 	touch ~/.bashrc
 	echo "" >> ~/.bashrc
 	echo "~/.beubash/scripts/*.sh" >> ~/.bashrc
-        echo "source ~/.beubash/aliases.conf" >> ~/.bashrc
+        echo "source ~/.beubash/{aliases,ps1}.conf" >> ~/.bashrc
 fi
 
 source ~/.bashrc
