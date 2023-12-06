@@ -33,19 +33,11 @@ clear
 
 ln -s ~/.beubash/.bashrc ~/.bashrc
 
-#if cat ~/.bashrc | grep beubash >/dev/null; then
-	#rm ~/.bashrc
-	#echo "" >> ~/.bashrc
-	#echo "~/.beubash/scripts/*.sh" >> ~/.bashrc
-	#echo "source ~/.beubash/aliases.conf" >> ~/.bashrc
-#else
-	#touch ~/.bashrc
-	#echo "" >> ~/.bashrc
-	#echo "~/.beubash/scripts/*.sh" >> ~/.bashrc
-        #echo "source ~/.beubash/aliases.conf" >> ~/.bashrc
-	#echo "source ~/.beubash/ps1.conf" >> ~/.bashrc
-#fi
-
-source ~/.bashrc
+clear
 
 echo "Installation has been completed!" | lolcat
+sleep 1
+
+clear 
+
+source ~/.bashrc
