@@ -1,31 +1,23 @@
 #!/usr/bin/env bash
 
-if command -v lolcat >/dev/null; then
-	echo "Starting the installer."
-	sleep 0.5
-else
-	alias lolcat=cat
-	exit 1
-fi
-
-echo "##############################" | lolcat
-echo "### Start the installation ###" | lolcat
-echo "##############################" | lolcat
+echo "##############################" 
+echo "### Start the installation ###" 
+echo "##############################" 
 sleep 0.5
 
 clear
 
-printf "Hey. This script can overwrite these files; \n~/.bashrc \n~/.beubash (if exists) \nIf you are sure, wait please." | lolcat 
+printf "Hey. This script can overwrite these files; \n~/.bashrc \n~/.beubash (if exists) \nIf you are sure, wait please." 
 sleep 2
 
 rm -rf ~/.beubash 2>/dev/null
 
-echo "Cloning the repo." | lolcat
+echo "Cloning the repo." 
 git clone https://github.com/Quitaxd/beubash ~/.beubash
 
 clear
 
-echo "Removing ~/.bashrc" | lolcat
+echo "Removing ~/.bashrc" 
 rm ~/.bashrc
 sleep 1
 
@@ -35,7 +27,7 @@ ln -s ~/.beubash/.bashrc ~/.bashrc
 
 clear
 
-echo "Installation has been completed!" | lolcat
+echo "Installation has been completed!" 
 sleep 1
 
 clear 
