@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+if command -v git >/dev/null; then
+	echo "Starting the installation."
+else
+	echo "git not installed. Please install it.
+fi
+
 echo "##############################" 
 echo "### Start the installation ###" 
 echo "##############################" 
@@ -18,7 +24,7 @@ git clone https://github.com/Quitaxd/beubash ~/.beubash
 clear
 
 echo "Removing ~/.bashrc" 
-rm ~/.bashrc
+mv ~/.bashrc ~/.old.bashrc_before_beubash
 sleep 1
 
 clear
