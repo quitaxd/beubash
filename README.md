@@ -8,7 +8,7 @@ curl https://raw.githubusercontent.com/Quitaxd/beubash/main/install.sh | sh
 
 ### Dependencies
 ```
-lolcat bash
+bash
 ```
 
 ## Screenshot

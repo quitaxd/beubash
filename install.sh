@@ -4,7 +4,7 @@ if command -v lolcat >/dev/null; then
 	echo "Starting the installer."
 	sleep 0.5
 else
-	echo "Lolcat is not installed. Please install it."
+	alias lolcat=cat
 	exit 1
 fi
 
