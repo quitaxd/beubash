@@ -3,7 +3,7 @@
 if command -v git >/dev/null; then
 	echo "Starting the installation."
 else
-	echo "git not installed. Please install it.
+	echo "git not installed. Please install it."
 fi
 
 echo "##############################" 
