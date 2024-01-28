@@ -38,4 +38,4 @@ sleep 1
 
 clear 
 
-source ~/.bashrc
+echo "Close this terminal and open a new terminal."
