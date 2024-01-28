@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
-if command -v git >/dev/null; then
-	echo "Starting the installation."
-else
+if ! command -v git >/dev/null; then
 	echo "git not installed. Please install it."
+fi
+
+if ! command -v bash >/dev/null; then
+	echo "bash not installed. Please install it."
 fi
 
 echo "##############################" 
