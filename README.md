@@ -1,5 +1,5 @@
 # beubash
-A tool for bash.
+A bash distro. It's giving a great bash config to you.
 
 ## Installation
 
