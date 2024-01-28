@@ -17,8 +17,13 @@ if [ -f ~/.config/aliasrc ]; then
 fi
 
 EDITOR=nvim
+
 if [ -d $HOME/.local/bin ]; then
   PATH="$PATH:$HOME/.local/bin"
+fi
+
+if [ -f $HOME/.cargo/env ]; then
+  . ~/.cargo/env
 fi
 
 source ~/.beubash/aliases.conf
