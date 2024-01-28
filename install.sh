@@ -23,6 +23,13 @@ rm -rf ~/.beubash 2>/dev/null
 echo "Cloning the repo." 
 git clone https://github.com/Quitaxd/beubash ~/.beubash
 
+if [ "$1" == "--dev" ]; then
+	echo "Switching to dev branch."
+	cd ~/.beubash
+	git checkout dev
+	cd -
+ fi
+
 clear
 
 echo "Removing ~/.bashrc" 
