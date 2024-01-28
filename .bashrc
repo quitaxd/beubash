@@ -24,6 +24,14 @@ if [ -d $HOME/.cargo/bin ]; then
   PATH="$PATH:$HOME/.cargo/bin"
 fi
 
+if [ -d $HOME/.bin ]; then
+  PATH="$PATH:$HOME/.bin"
+fi
+
+if [ -d $HOME/bin ]; then
+  PATH="$PATH:$HOME/bin"
+fi
+
 EDITOR=nvim
 source ~/.beubash/aliases.conf
 source ~/.beubash/ps1.conf
