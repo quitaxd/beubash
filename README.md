@@ -27,6 +27,7 @@ neofetch
 ```
 
 **Debian/Ubuntu:** `sudo apt install neofetch`
+
 **Arch**: `sudo pacman -S neofetch`
 
 ## Screenshot
