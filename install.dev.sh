@@ -46,4 +46,5 @@ sleep 1
 clear 
 
 echo "NOTE: You can put your aliases into $HOME/.config/aliasrc"
-echo "Close this terminal and open a new terminal."
+sleep 2
+source ~/.bashrc
