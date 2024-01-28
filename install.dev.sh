@@ -49,3 +49,4 @@ clear
 
 echo "NOTE: You can put your aliases into $HOME/.config/aliasrc"
 source ~/.bashrc
+echo "If beubash was not activated, please close this terminal and open a new terminal."
