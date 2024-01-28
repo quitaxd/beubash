@@ -15,14 +15,18 @@ With unstable installation program: `curl https://raw.githubusercontent.com/Quit
 
 ### Dependencies
 ```
-bash \
-git
+bash git
 ```
+**Debian/Ubuntu:** `sudo apt install bash git`
+**Arch**: `sudo pacman -S bash git`
 
 ### Optional Dependencies
 ```
 neofetch
 ```
+
+**Debian/Ubuntu:** `sudo apt install neofetch`
+**Arch**: `sudo pacman -S neofetch`
 
 ## Screenshot
 ![Screenshot1](https://i.imgur.com/YRYFWxY.png)
