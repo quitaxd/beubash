@@ -18,6 +18,7 @@ With unstable installation program: `curl https://raw.githubusercontent.com/Quit
 bash git
 ```
 **Debian/Ubuntu:** `sudo apt install bash git`
+
 **Arch**: `sudo pacman -S bash git`
 
 ### Optional Dependencies
