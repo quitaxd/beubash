@@ -15,7 +15,13 @@ With unstable installation program: `curl https://raw.githubusercontent.com/Quit
 
 ### Dependencies
 ```
-bash git
+bash \
+git
+```
+
+### Optional Dependencies
+```
+neofetch
 ```
 
 ## Screenshot
