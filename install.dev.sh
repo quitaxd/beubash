@@ -46,3 +46,4 @@ sleep 1
 clear 
 
 echo "Close this terminal and open a new terminal."
+echo "NOTE: You can put your aliases into $HOME/.config/aliasrc"
