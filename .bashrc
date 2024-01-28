@@ -16,15 +16,14 @@ if [ -f ~/.config/aliasrc ]; then
   source ~/.config/aliasrc
 fi
 
-EDITOR=nvim
-
 if [ -d $HOME/.local/bin ]; then
   PATH="$PATH:$HOME/.local/bin"
 fi
 
 if [ -f $HOME/.cargo/env ]; then
-  . ~/.cargo/env
+  source ~/.cargo/env
 fi
 
+EDITOR=nvim
 source ~/.beubash/aliases.conf
 source ~/.beubash/ps1.conf
