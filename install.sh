@@ -23,6 +23,13 @@ rm -rf ~/.beubash 2>/dev/null
 echo "Cloning the repo." 
 git clone https://github.com/Quitaxd/beubash ~/.beubash
 
+if [ "$1" == "--dev" ]; then
+	echo "Switching to dev branch."
+	cd ~/.beubash
+	git checkout dev
+	cd -
+ fi
+
 clear
 
 echo "Removing ~/.bashrc" 
@@ -42,3 +49,4 @@ clear
 
 echo "NOTE: You can put your aliases into $HOME/.config/aliasrc"
 source ~/.bashrc
+echo "If beubash was not activated, please close this terminal and open a new terminal."

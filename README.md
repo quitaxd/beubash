@@ -1,5 +1,5 @@
 # beubash
-A tool for bash.
+A bash distro. It's giving a great bash config to you.
 
 ## Installation
 
@@ -9,15 +9,16 @@ With stable installation program (RECOMMENDED): `curl https://raw.githubusercont
 With unstable installation program: `curl https://raw.githubusercontent.com/Quitaxd/beubash/dev/install.sh | bash`
 
 ### Unstable Version
-With stable installation program: `curl https://raw.githubusercontent.com/Quitaxd/beubash/main/install.dev.sh | bash`
+With stable installation program: `curl https://raw.githubusercontent.com/Quitaxd/beubash/main/install.sh | bash -s -- --dev`
 
-With unstable installation program: `curl https://raw.githubusercontent.com/Quitaxd/beubash/dev/install.dev.sh | bash`
+With unstable installation program: `curl https://raw.githubusercontent.com/Quitaxd/beubash/dev/install.sh | bash -s -- --dev`
 
 ### Dependencies
 ```
 bash git
 ```
 **Debian/Ubuntu:** `sudo apt install bash git`
+
 **Arch**: `sudo pacman -S bash git`
 
 ### Optional Dependencies
@@ -26,6 +27,7 @@ neofetch
 ```
 
 **Debian/Ubuntu:** `sudo apt install neofetch`
+
 **Arch**: `sudo pacman -S neofetch`
 
 ## Screenshot
