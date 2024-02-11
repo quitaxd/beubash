@@ -2,16 +2,20 @@
 A bash distro. It's giving a great bash config to you.
 
 ## Installation
+```
+curl https://raw.githubusercontent.com/Quitaxd/beubash/main/install.sh -o $HOME/.beubash.install.sh
+chmod +x ~/.beubash.install.sh
+~/.beubash.install.sh
+```
 
-### Stable Version
-With stable installation program (RECOMMENDED): `curl https://raw.githubusercontent.com/Quitaxd/beubash/main/install.sh | bash`
+**NOTE:** If you want dev version, you can launch ~/.beubash.install.sh with --dev flag.
 
-With unstable installation program: `curl https://raw.githubusercontent.com/Quitaxd/beubash/dev/install.sh | bash`
+## Update
+```
+~/.beubash.install.sh
+```
 
-### Unstable Version
-With stable installation program: `curl https://raw.githubusercontent.com/Quitaxd/beubash/main/install.sh | bash -s -- --dev`
-
-With unstable installation program: `curl https://raw.githubusercontent.com/Quitaxd/beubash/dev/install.sh | bash -s -- --dev`
+**NOTE:** If you want dev version, you can launch ~/.beubash.install.sh with --dev flag.
 
 ### Dependencies
 ```
