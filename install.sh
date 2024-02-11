@@ -2,11 +2,12 @@
 
 if ! command -v git >/dev/null; then
 	echo "git not installed. Please install it."
+ 	exit 1
 fi
 
 if ! command -v bash >/dev/null; then
 	echo "bash not installed. Please install it."
- 	exit 1
+  exit 1
 fi
 
 echo "##############################" 
@@ -49,5 +50,5 @@ sleep 1
 clear 
 
 echo "NOTE: You can put your aliases into $HOME/.config/aliasrc"
-source ~/.bashrc
+builtin source ~/.bashrc
 echo "If beubash was not activated, please close this terminal and open a new terminal."
