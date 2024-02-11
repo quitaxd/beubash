@@ -2,10 +2,12 @@
 
 if ! command -v git >/dev/null; then
 	echo "git not installed. Please install it."
+ 	exit 1
 fi
 
 if ! command -v bash >/dev/null; then
 	echo "bash not installed. Please install it."
+  	exit 1
 fi
 
 echo "##############################" 
