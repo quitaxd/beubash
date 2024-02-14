@@ -4,6 +4,6 @@ source ~/.beubash/path.conf
 source ~/.beubash/variables.conf
 source ~/.beubash/func.conf
 
-if command -v neofetch; then
+if command -v neofetch>/dev/null; then
 				neofetch
 fi
