@@ -8,14 +8,10 @@ chmod +x ~/.beubash.install.sh
 ~/.beubash.install.sh
 ```
 
-**NOTE:** If you want dev version, you can launch ~/.beubash.install.sh with --dev flag.
-
 ## Update
 ```
 ~/.beubash.install.sh
 ```
-
-**NOTE:** If you want dev version, you can launch ~/.beubash.install.sh with --dev flag.
 
 ### Dependencies
 ```
