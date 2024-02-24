@@ -1,6 +1,9 @@
 # beubash
 A bash distro. It's giving a great bash config to you.
 
+> [!WARNING]
+> Currently this programme contains bugs. You can use [oh-my-bash](https://ohmybash.nntoan.com/) until the bugs are resolved.
+
 ## Installation
 ```
 curl https://raw.githubusercontent.com/Quitaxd/beubash/main/install.sh -o $HOME/.beubash.install.sh
