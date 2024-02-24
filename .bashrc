@@ -1,5 +1,6 @@
 source ~/.beubash/source.conf
 
-if command -v neofetch>/dev/null; then
+
+if [ "$STARTUP_NEOFETCH" == "1" ]; then
 				neofetch
 fi
