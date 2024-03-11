@@ -2,7 +2,7 @@
 A bash distro. It's giving a great bash config to you.
 
 > [!WARNING]
-> Currently this programme contains bugs. You can use [oh-my-bash](https://ohmybash.nntoan.com/) until the bugs are resolved.
+> Now, this project discounted. Please use my [personal bashrc](https://github.com/Quitaxd/bashrc).
 
 ## Installation
 ```
