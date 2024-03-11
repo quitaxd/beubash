@@ -1,9 +1,6 @@
 # beubash
 A bash distro. It's giving a great bash config to you.
 
-> [!WARNING]
-> Now, this project discounted. Please use my [personal bashrc](https://github.com/Quitaxd/bashrc).
-
 ## Installation
 ```
 curl https://raw.githubusercontent.com/Quitaxd/beubash/main/install.sh -o $HOME/.beubash.install.sh
